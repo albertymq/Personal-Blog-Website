@@ -1,0 +1,36 @@
+p, h4, h5, ul, button {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h4{
+    font-size:x-large;
+    color:#053742;
+}
+
+h5{
+    font-size: large;
+    color:#053742a9;
+}
+
+ul{
+    font-size: large;
+    line-height: 200%;
+}
+
+button{
+    font-size:large;
+    color:#e8f0f2;
+    background-color:#053742;
+    border-color:#e8f0f2;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+button:hover{
+    font-size:large;
+    color:#053742;
+    background-color:#e8f0f2;
+    border-color:#053742;
+    border-width: 1px;
+    border-radius: 5px;
+}
