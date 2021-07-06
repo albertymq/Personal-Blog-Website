@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HomePage</title>
-        <link href="Homepage-style.css" type="text/css" rel="stylesheet"/>
-        <link href="text-style.css" type="text/css" rel="stylesheet"/>
-    </head>
-    <body>
-        <div class="container">
 
-            <div class="header">
-                <!--Header Content-->Blog Site
-            </div>
+<head>
+    <title>HomePage</title>
+    <link href="css/Homepage-style.css" type="text/css" rel="stylesheet" />
+    <link href="css/text-style.css" type="text/css" rel="stylesheet" />
+</head>
 
-            <div class="sidebar">
-                <!--Sidebar Content-->
-                <h4 style="color:#e8f0f2;">Related Posts</h4>
-                <ul>
-                    <li>Design System</li>
-                    <li>Link1</li>
-                    <li>Link2</li>
-                    <li>Link3</li>
-                </ul>
-                <button>Google</button>
-                <button>Youtube</button>
-                <button>FaceBook</button>
-                <button>Instagram</button>
-            </div>
+<body>
+    <div class="container">
 
-            <div class='postcards'>
-                <div class="post" id="post1">
-                    <!--Post 1 content-->
-                    <h4>Blog Post 1</h4>
-                    <h5>Abstract</h5>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    </p>
-                </div>
-
-                <div class="post" id="post2">
-                    <!--Post 2 content-->
-                    <h4>Blog Post 2</h4>
-                    <h5>Abstract</h5>
-                    <p>
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. 
-                        It has roots in a piece of classical Latin literature from 45 BC, 
-                        making it over 2000 years old.
-                    </p>
-                </div>
-
-                <div class="post" id="post3">
-                    <!--Post 3 content-->
-                    <h4>Blog Post 3</h4>
-                    <h5>Abstract</h5>
-                    <p>
-                        There are many variations of passages of Lorem Ipsum available, 
-                        but the majority have suffered alteration in some form, 
-                        by injected humour, or randomised words which don't look even slightly believable. 
-                        If you are going to use a passage of Lorem Ipsum, 
-                        you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                    </p>
-                </div>
-            </div>
-
-
-            <div class="footer">
-                <!--footer content-->@Copyright2021
-            </div>
-
-
+        <div class="header">
+            <!--Header Content-->
+            <h1 class="title" style="color: #39A2DB; font-size: 100px; font-family:'Times New Roman', Times, serif;">Blog Site</h1>
         </div>
-    </body>
+
+        <div class="sidebar">
+            <!--Sidebar Content-->
+            <h3 style="color:#e8f0f2; margin-bottom: 5px;">Related Links</h3>
+            <ul>
+                <li>Design System</li>
+                <li>Link1</li>
+                <li>Link2</li>
+                <li>Link3</li>
+            </ul>
+            <form class="subscribeform">
+                <label for="Name">Name</label>
+                <input type="text" id="name" placeholder="Your name...">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email...">
+            </form>
+            <button>Subscribe</button>
+            <h3 style="color:#e8f0f2; margin-bottom: 5px;">Elsewhere</h3>
+            <a href="http://www.google.com" target="-blank"><button>Google</button></a>
+            <a href="http://www.youtube.com" target="-blank"><button>Youtube</button></a>
+            <a href="http://www.facebook.com" target="-blank"><button>Facebook</button></a>
+            <a href="http://www.Udacity.com" target="-blank"><button>Udacity</button></a>
+        </div>
+
+        <div class='postcards'>
+            <div class="post" id="post1">
+                <!--Post 1 content-->
+                <a href="Blog Post.html"><h3>Blog Post 1</h3></a>
+                <h4>Abstract</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                </p>
+            </div>
+
+            <div class="post" id="post2">
+                <!--Post 2 content-->
+                <h3>Blog Post 2</h3>
+                <h4>Abstract</h4>
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text.
+                    It has roots in a piece of classical Latin literature from 45 BC,
+                    making it over 2000 years old.
+                </p>
+            </div>
+
+            <div class="post" id="post3">
+                <!--Post 3 content-->
+                <h3>Blog Post 3</h3>
+                <h4>Abstract</h4>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available,
+                    but the majority have suffered alteration in some form,
+                    by injected humour, or randomised words which don't look even slightly believable.
+                    If you are going to use a passage of Lorem Ipsum,
+                    you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="footer">
+            <!--footer content-->
+            <h4 style="color: #39A2DB;font-family:'Times New Roman', Times, serif;">Copyright 2021</h4>
+        </div>
+
+
+    </div>
+</body>
+
 </html>
