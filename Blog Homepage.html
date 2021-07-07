@@ -3,8 +3,8 @@
 
 <head>
     <title>HomePage</title>
-    <link href="css/Homepage-style.css" type="text/css" rel="stylesheet" />
     <link href="css/text-style.css" type="text/css" rel="stylesheet" />
+    <link href="css/Homepage-style.css" type="text/css" rel="stylesheet" />
 </head>
 
 <body>
@@ -12,21 +12,24 @@
 
         <div class="header">
             <!--Header Content-->
-            <h1 class="title" style="color: #39A2DB; font-size: 100px; font-family:'Times New Roman', Times, serif;">Blog Site</h1>
+            <h1 class="title" style="color: #39A2DB; font-family:'Times New Roman', Times, serif;">
+                Blog Site</h1>
         </div>
 
         <div class="sidebar">
             <!--Sidebar Content-->
             <h3 style="color:#e8f0f2; margin-bottom: 5px;">Related Links</h3>
             <ul>
-                <li>Design System</li>
+                <a href="Design System.html">
+                    <li style="color:#e8f0f2;">Design System</li>
+                </a>
                 <li>Link1</li>
                 <li>Link2</li>
                 <li>Link3</li>
             </ul>
             <form class="subscribeform">
                 <label for="Name">Name</label>
-                <input type="text" id="name" placeholder="Your name...">
+                <input type="text" id="name" placeholder="Your name..."><br>
                 <label for="email">Email</label>
                 <input type="email" id="email" placeholder="Your email...">
             </form>
@@ -41,7 +44,9 @@
         <div class='postcards'>
             <div class="post" id="post1">
                 <!--Post 1 content-->
-                <a href="Blog Post.html"><h3>Blog Post 1</h3></a>
+                <a href="Blog Post.html">
+                    <h3>Blog Post 1</h3>
+                </a>
                 <h4>Abstract</h4>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.

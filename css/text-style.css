@@ -1,32 +1,48 @@
-p, h1, h2, h3, h4, h5, ul, ol, button, input, label{
-    font-family:Arial, Helvetica, sans-serif
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+button,
+input,
+label,
+blockquote,
+em {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    font-size: 100px;
+h1 {
+  font-size: 75px;
 }
 
-h2{
-    font-size:xx-large;
-    color:#053742;
+h2 {
+  font-size: xx-large;
+  color: #053742;
 }
 
-h3{
-    font-size:x-large;
-    color:#053742;
+h3 {
+  font-size: x-large;
+  color: #053742;
 }
 
-h4{
-    font-size: large;
-    color:#053742a9;
+h4 {
+  font-size: large;
+  color: #053742a9;
 }
 
-h5{
-    font-size: Normal;
-    color:#053742bd;
+h5 {
+  font-size: Normal;
+  color: #053742bd;
 }
 
-ul{
-    font-size: large;
-    line-height: 150%;
+ul {
+  font-size: large;
+  line-height: 150%;
+}
+
+input[type="text"] {
+  margin: 10px 0;
 }

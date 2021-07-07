@@ -1,82 +1,116 @@
-body{
-    background-color: #053742;
+body {
+  background-color: #053742;
 }
 
-.container{
-    display:grid;
-    grid-template-columns: 17% 27% 27% 27%;
-    grid-template-rows: 25vh 65vh 10vh;
-    grid-template-areas:
+.container {
+  display: grid;
+  grid-template-columns: 17% 27% 27% 27%;
+  grid-template-rows: 25% 65% 10%;
+  grid-template-areas:
     "hd hd hd hd"
     "sd post post post"
     "ft ft ft ft";
-    padding-left: 3vw;
-    padding-right: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
-.header{
-    margin: 20px;
-    grid-area: hd;
-    font-size:100px ;
+.header {
+  grid-area: hd;
 }
 
-
-.footer{
-    margin: 20px;
-    grid-area: ft;
-    color:#6dadcf;
-    font-size:20px
+.title {
+  font-size: 100px;
 }
 
-.sidebar{
-    display:flex;
+.footer {
+  grid-area: ft;
+  color: #6dadcf;
+  font-size: 20px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 25px;
+  grid-area: sd;
+  color: #e8f0f2;
+  gap: 15px;
+}
+
+input[type="text"] {
+  margin: 10px 0;
+}
+
+.postcards {
+  grid-area: post;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.post {
+  background-color: #a2dbfa;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  width: 33.3%;
+}
+
+button {
+  display: block;
+  width: 80%;
+  font-size: large;
+  color: #e8f0f2;
+  background-color: #053742;
+  border-color: #e8f0f2;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+button:hover {
+  font-size: large;
+  color: #053742;
+  background-color: #e8f0f2;
+  border-color: #053742;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1367px) and (min-width: 901px) {
+  .container {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    display: grid;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "hd"
+      "post"
+      "sd"
+      "ft";
+  }
+
+  .postcards {
     flex-direction: column;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 25px;
-    grid-area: sd;
-    color:#e8f0f2;
-    gap: 15px;
-}
+  }
 
-input[type=text]{
-    margin: 10px 0;
-}
+  .post {
+    width: 85%;
+    margin: 0px;
+  }
 
-.postcards{
-    grid-area: post;
-    display:flex;
-    gap: 20px;
-    flex-direction: row;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 25px;
-}
-
-.post{
-    background-color: #a2dbfa;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 25px;
-    width: 33.3%;
-}
-
-button{
-    display:block;
-    width:80%;
-    font-size:large;
-    color:#e8f0f2;
-    background-color:#053742;
-    border-color:#e8f0f2;
-    border-width: 1px;
-    border-radius: 5px;
-}
-
-button:hover{
-    font-size:large;
-    color:#053742;
-    background-color:#e8f0f2;
-    border-color:#053742;
-    border-width: 1px;
-    border-radius: 5px;
+  .title {
+    font-size: 70px;
+  }
 }

@@ -20,11 +20,11 @@
 
         <div class="author">
             <!--author-->
-            <img src="pics/Icon.png" alt="icon" style="max-width: 50%; height:auto;">
-            <h3 style="color:#053742bd; margin-bottom:5px;">Albert</h3>
-            <p>
-                Descripiton about the author here, Fusce porttitor ac justo sit amet 
-                condimentum. Nunc gravida hendrerit magna sit amet egestas. 
+            <img src="pics/Icon.png" alt="icon" class="icon">
+            <h3 style="color:#053742bd; margin-bottom:5px;" class="name">Albert</h3>
+            <p class="description">
+                Descripiton about the author here, Fusce porttitor ac justo sit amet
+                condimentum. Nunc gravida hendrerit magna sit amet egestas.
                 Ut eu enim vitae enim tincidunt rutrum.
             </p>
         </div>
@@ -33,12 +33,16 @@
             <!--Content-->
             <h3>What is Lorem Ipsum?</h3>
             <P>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                <b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                type and scrambled it to make a type specimen book.
+            </P>
+            <blockquote>
+                <em>"It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged."</em>
+            </blockquote>
+            <p>
                 It was popularised in the 1960s with the release of Letraset
                 sheets containing Lorem Ipsum passages, and more recently
                 with desktop publishing software like Aldus PageMaker including
@@ -63,13 +67,13 @@
             </p>
             <h3>List displaying</h3>
             <p>
-                <ol>
-                    <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
-                    <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
-                    <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
-                    <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
-                    <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
-                </ol>
+            <ol>
+                <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
+                <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
+                <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
+                <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
+                <li>Ut facilisis ligula dolor, in rutrum magna auctor sed.</li>
+            </ol>
             </p>
         </div>
 
@@ -77,12 +81,19 @@
             <!--sidebar and links-->
             <h3 style="color:#053742bd; margin-bottom: 5px;">Related Links</h3>
             <ul>
-                <li>Design System</li>
+                <a href="Design System.html">
+                    <li style="color:black;">Design System</li>
+                </a>
                 <li>Link1</li>
                 <li>Link2</li>
                 <li>Link3</li>
             </ul>
-            <button>Follow</button>
+            <form class="subscribeform">
+                <label for="Name">Name</label>
+                <input type="text" id="name" placeholder="Your name..."><br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your email...">
+            </form>
             <button>Subscribe</button>
             <h3 style="color:#053742bd; margin-bottom: 5px;">Elsewhere</h3>
             <a href="http://www.google.com" target="-blank"><button>Google</button></a>

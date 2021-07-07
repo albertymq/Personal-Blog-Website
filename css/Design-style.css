@@ -1,0 +1,111 @@
+body {
+  background-color: #e8f0f2;
+}
+
+.nav {
+  border-top: 2px solid #053742;
+}
+
+.container {
+  display: grid;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.typography {
+  border-top: 2px solid #053742;
+  margin-top: 20px;
+}
+
+.postcard {
+  background-color: #a2dbfa;
+  padding: 20px;
+  border-radius: 25px;
+  width: 45%;
+}
+
+.color {
+  border-top: 2px solid #053742;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.colorsample {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #053742;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border-top: 2px solid #053742;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  width: 250px;
+  height: 50px;
+}
+
+button.homepagebt {
+  display: block;
+  font-size: large;
+  color: #e8f0f2;
+  background-color: #053742;
+  border-color: #e8f0f2;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+button.homepagebt:hover {
+  font-size: large;
+  color: #053742;
+  background-color: #e8f0f2;
+  border-color: #053742;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+button.postpagebt {
+  display: block;
+  font-size: large;
+  color: #053742;
+  background-color: #e8f0f2;
+  border-color: #053742;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+button.postpagebt:hover {
+  font-size: large;
+  color: #e8f0f2;
+  background-color: #053742;
+  border-color: #e8f0f2;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.avatar {
+  border-top: 2px solid #053742;
+  margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: grid;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .postcard {
+    width: 60%;
+  }
+}
