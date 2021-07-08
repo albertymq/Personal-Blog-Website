@@ -1,3 +1,6 @@
+@import "text-style.css";
+@import "Postpagespecial-style.css";
+
 body {
   background-color: #e8f0f2;
 }
@@ -12,7 +15,7 @@ body {
     "content sidebar";
   padding-left: 20vw;
   padding-right: 20vw;
-  grid-column-gap: 10px;
+  grid-column-gap: 15px;
 }
 
 .posttitle {

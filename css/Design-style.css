@@ -1,3 +1,5 @@
+@import "text-style.css";
+
 body {
   background-color: #e8f0f2;
 }
@@ -6,7 +8,7 @@ body {
   border-top: 2px solid #053742;
 }
 
-.container {
+.designcontainer {
   display: grid;
   padding-left: 20vw;
   padding-right: 20vw;
@@ -30,6 +32,22 @@ body {
   flex-direction: column;
   gap: 10px;
   margin-top: 20px;
+}
+
+#color1 {
+  background-color: #053742;
+}
+
+#color2 {
+  background-color: #39a2db;
+}
+
+#color3 {
+  background-color: #a2dbfa;
+}
+
+#color4 {
+  background-color: #e8f0f2;
 }
 
 .colorsample {
@@ -98,8 +116,13 @@ button.postpagebt:hover {
   margin-top: 20px;
 }
 
+#avataricon {
+  width: 150px;
+  height: auto;
+}
+
 @media (max-width: 1024px) {
-  .container {
+  .designcontainer {
     display: grid;
     padding-left: 10vw;
     padding-right: 10vw;
